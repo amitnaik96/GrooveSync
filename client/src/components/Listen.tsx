@@ -50,7 +50,7 @@ const Listen:React.FC = () => {
                         ref={playerRef}
                         url={url}
                         playing={playing}
-                        controls={false}
+                        controls={true}
                         width="0%" 
                         height="0px" // Set it to zero so no video plays
                         config={{
