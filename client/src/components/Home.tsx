@@ -24,8 +24,8 @@ const Home:React.FC = () => {
         else setAlert(false);
         e.preventDefault();
         try {
-            const response = await axios.post<item[]>('http://localhost:3000', {search : query}); // local server link
-            // const response = await axios.post<item[]>('https://groovesync-server.vercel.app/', {search : query});
+            // const response = await axios.post<item[]>('http://localhost:3000', {search : query}); // local server link
+            const response = await axios.post<item[]>('https://groovesync-server.onrender.com/', {search : query});  //deployed server link
             setItems(response.data);
             console.log(response.data);
         } catch (error) {
