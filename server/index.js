@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const dotenv = require("dotenv");
 dotenv.config();
+app.use(express.urlencoded({extended : true}));
 
 
 // Middleware
