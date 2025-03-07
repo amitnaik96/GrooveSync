@@ -9,12 +9,13 @@ interface Props {
     thumbnail: string;
 };
 
-export const ListItems = ({items}: any) => {
+export const ListItems = ({items}: { items: Props[]}) => {
     const setTitle = useSetAtom(titleAtom);
     return <div>
         {   
             items.map(((item:any) => {
                 return <Link 
+                            key={item.title}
                             href={`/audios/${item.videoId}`} 
                             onClick={() => {setTitle(item.title)}}
                         >
