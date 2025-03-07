@@ -1,4 +1,4 @@
-[![groovesync-logo](https://github.com/amitnaik96/GrooveSync/blob/main/images/Logo.png)](https://groove-sync.vercel.app/)  
+# GrooveSync
 
 A Nextjs app for listening to songs present on YouTube.
 
@@ -12,7 +12,7 @@ Visit `http://localhost:3000`
 
 
 ### Note
-May stop responding because youtube data has exceeded the quota 
+The app may stop responding if the YouTube Data API quota is exceeded.
 
 ## License
 Distributed under the [MIT](https://github.com/amitnaik96/GrooveSync/blob/main/LICENSE) License .
