@@ -11,9 +11,10 @@ import { titleAtom } from '@/app/store/atoms';
 import { useAtomValue } from 'jotai';
 
 
-export default function Listen({params} : any) {
+export default function Listen() {
     const { videoId } = useParams();
     const [ playing, setPlaying ] = useState<boolean>(false);
+    //@typescript-eslint/no-explicit-any
     const playerRef = useRef<any>(null);
     const title = useAtomValue(titleAtom); 
 

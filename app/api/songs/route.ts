@@ -20,7 +20,7 @@ export async function POST(req: NextRequest){
         }
 
         const response: any = await youtube.search.list({
-            //@ts-ignore
+            //@ts-expect-error some error with part
             part: 'snippet' ,
             q: `${query} song`,
             type: 'video',
