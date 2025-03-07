@@ -1,76 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# GrooveSync
+## Getting Started
 
-A React-Node application for listening to songs present on YouTube.
-
-
-## Tech Stack
-
-**Client:** React, Vite, TailwindCSS, Material Tailwind
-
-**Server:** Node, Express, YouTube Data API
-
-
-## Documentation
-
-- [React](https://react.dev/)
-- [TailwindCSS](https://tailwindcss.com/docs/installation)
-- [React-TypeScript](https://react-typescript-cheatsheet.netlify.app/)
-- [Material Tailwind](https://www.material-tailwind.com/docs/react/installation)
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-- `API_KEY`
-## Run Locally
-
-Clone the project
+First, run the development server:
 
 ```bash
-  git clone https://github.com/AmitNaik96/GrooveSync.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Go to the server directory
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-  cd server
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Install dependencies in server
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```bash
-  npm install
-```
+## Learn More
 
-Go to the client directory
+To learn more about Next.js, take a look at the following resources:
 
-```bash
-  cd frontend
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Install dependencies in frontend
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-```bash
-  npm install
-```
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Start both server and client
-
-```bash
-  npm run dev
-```
-## Images
-
-![Project](https://github.com/AmitNaik96/GrooveSync/blob/main/demo1.png)
-
-![Project](https://github.com/AmitNaik96/GrooveSync/blob/main/demo2.png)
-
-
-
-## 🔗 Links
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-naik-79295028a/)
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
